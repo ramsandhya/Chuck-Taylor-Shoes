@@ -137,7 +137,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="songTotleLbl" destination="c2G-Nn-obN" id="Oyu-JF-4DS"/>
+                        <outlet property="songTitleLbl" destination="c2G-Nn-obN" id="m5P-oV-nfm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uBg-Ne-deq" userLabel="First Responder" sceneMemberID="firstResponder"/>
