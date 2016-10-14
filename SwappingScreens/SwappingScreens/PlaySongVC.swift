@@ -10,10 +10,22 @@ import UIKit
 
 class PlaySongVC: UIViewController {
 
-    @IBOutlet weak var songTotleLbl: UILabel!
+    @IBOutlet weak var songTitleLbl: UILabel!
+    
+    private var _selectedSong: String!
+    
+    var selectedSong: String {
+        get {
+            return _selectedSong
+        }set {
+            _selectedSong = newValue
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        songTitleLbl.text = _selectedSong
 
         // Do any additional setup after loading the view.
     }
