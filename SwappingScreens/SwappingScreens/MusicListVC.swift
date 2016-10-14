@@ -23,7 +23,7 @@ class MusicListVC: UIViewController {
     
     @IBAction func load3rdScreenPressed(_ sender: AnyObject) {
         
-        let songTitle = "Quit Playing Gakes WIth My Heart"
+        let songTitle = "Quit Playing Games WIth My Heart"
         
         performSegue(withIdentifier:"PlaySongVC" , sender: songTitle)
         
